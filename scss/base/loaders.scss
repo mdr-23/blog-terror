@@ -1,0 +1,18 @@
+#pennywise-loading{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    animation: rota 1s infinite;
+
+    @keyframes rota {
+        0% {
+            display: block;
+        }
+        50% {
+            transform: rotate(-10deg);
+        }
+        100%{
+            transform: rotate(10deg);
+        }
+    }
+}
